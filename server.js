@@ -5,5 +5,6 @@ app.get("/", (req, res) => {
 });
 app.listen(3000, () => {
     console.log("Server running");
+    console.log("Dev branch is running");
     console.log("Server Test Version 1 is running");
 });
